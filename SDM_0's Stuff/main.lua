@@ -6,7 +6,7 @@
 --- BADGE_COLOUR: c20000
 --- DISPLAY_NAME: SDM_0's Stuff
 --- PREFIX: sdm
---- VERSION: 1.5.0h
+--- VERSION: 1.5.0i
 --- LOADER_VERSION_GEQ: 1.0.0 
 
 ----------------------------------------------
@@ -14,7 +14,7 @@
 
 SDM_0s_Stuff_Mod = SMODS.current_mod
 
-NFS.load(SDM_0s_Stuff_Mod.path.."config.lua")()
+NFS.load(SDM_0s_Stuff_Mod.path.."settings.lua")()
 NFS.load(SDM_0s_Stuff_Mod.path.."localization.lua")()
 NFS.load(SDM_0s_Stuff_Mod.path.."utils.lua")()
 NFS.load(SDM_0s_Stuff_Mod.path.."overrides.lua")()
